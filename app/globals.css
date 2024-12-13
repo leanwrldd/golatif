@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #b93131;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #05101f;
+    --foreground: #664b4b;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: linear-gradient(to bottom, theme('colors.color1'), theme('colors.color1'));  /* Gradient from black to white */
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;  /* Ensure the gradient covers the entire page */
+}
