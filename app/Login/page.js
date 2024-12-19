@@ -11,12 +11,11 @@ const handleLogin = async (e, username, password) => {
     body: JSON.stringify({ username, password }),
   });
 
-  if (res.ok) {
+  if (res.status == 200) {
     alert("Login successful!");
-    window.location.href = "/";
+    //window.location.href = "/";
   } else {
-    alert("Invalid credentials. Please try again.");
-    console.log("Username:", username, "Password:", password); // Log to console for debugging
+    alert("Invalid credentials.");
   }
 };
 
@@ -27,7 +26,7 @@ export default function LoginPage() {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="flex gap-4 mt-10">
         <div>
           <label htmlFor="username">Username:</label>
           <input 
