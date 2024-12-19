@@ -1,79 +1,9 @@
-import Navbar from "./Comps/Navbar";
+import Navbar from "./Components/Navbar.js";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
     <Navbar/>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
-    hey <hr></hr>
     </>
   );
 }
